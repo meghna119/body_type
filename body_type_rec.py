@@ -84,6 +84,7 @@ class BodyClassifierApp:
             }
         } 
             }
+        }
     def load_rf_model(self):
         try:
             with open('random_forest_model.pkl', 'rb') as file:
