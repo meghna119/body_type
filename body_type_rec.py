@@ -14,79 +14,29 @@ class BodyClassifierApp:
         self.recommendation_images = {
             "Female": {
                 "APPLE": {
-                    "Skirt": ["images/women/a line skirt .png", "images/women/wrap skirt .png","images/women/handkerchief skirt .png", "images/women/flip skirt .png", "images/women/draped skirt .png"],
-                    "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/wide leg jumpsuit .png", "images/women/utility jumpsuit .png", "images/women/wrap jumpsuit .png", "images/women/empire jumpsuit .png"],
-                    "Pants": ["images/women/harem pants .png", "images/women/bootcut pants.png", "images/women/Palazzo pants .png", "images/women/pegged pants.png", "images/women/wideleg jeans .png"],
-                    "Necklines": ["images/women/y neckline .png", "images/women/v neckline.png", "images/women/sweetheart neckline .png", "images/women/scoop neckline .png", "images/women/off shoulder neckline .png"],
-                    "Tops": ["images/women/off shoulder top .png", "images/women/peplum top .png", "images/women/wrap top.png", "images/women/empire top.png", "images/women/hoodie .png"],
-                    "Sleeves": ["images/women/cap sleeve .png", "images/women/Bell sleeve.png", "images/women/dolman sleeve.png", "images/women/flutter sleeve .png", "images/women/off shoulder sleeve .png"],
-                    "TRADITIONAL WEAR": ["images/women/aline kurta.png", "images/women/anarkali kurta.png", "images/women/straight cut kurta.png", "images/women/empire waist kurta.png", "images/women/sari.png"]
-                },
-                 "RECTANGLE": {
-                    "Skirt": ["images/women/a line skirt .png", "images/women/pencil skirt .png","images/women/tulip skirt.png", "images/women/flip skirt .png", "images/women/wrap skirt .png"],
-                    "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/peplum jumpsuit .png", "images/women/ruffled jumpsuit .png", "images/women/basic jumpsuit .png", "images/women/empire jumpsuit .png"],
-                    "Pants": ["images/women/cargo pants .png", "images/women/bootcut pants.png", "images/women/Palazzo pants .png", "images/women/pegged pants.png", "images/women/wideleg jeans .png"],
-                    "Necklines": ["images/women/halter neckline .png", "images/women/v neckline.png", "images/women/sweetheart neckline .png", "images/women/scoop neckline .png", "images/women/halter strap neckline .png"],
-                    "Tops": ["images/women/halter top.png", "images/women/peplum top .png", "images/women/belted top.png", "images/women/empire top.png", "images/women/hoodie .png"],
-                    "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/dolman sleeve.png", "images/women/flutter sleeve .png", "images/women/3_4 th sleeve .png"],
-                    "TRADITIONAL WEAR": ["images/women/bandhani saree.png", "images/women/anarkali kurta.png", "images/women/flared kurta.png", "images/women/empire waist kurta.png", "images/women/pleated kurta .png"]
+                    "Skirt": ["images/Women/a line skirt .png", "images/Women sketches/Skirts/wrap skirt .png","images/Women/handkerchief skirt .png", "images/Women/flip skirt .png", "images/Women/draped skirt .png"],
+                    "Jumpsuits": ["images/Women/belted jumpsuit .png", "images/Women sketches/Jumpsuits /wide leg jumpsuit .png", "images/Women sketches/Jumpsuits /utility jumpsuit .png", "images/Women sketches/Jumpsuits /wrap jumpsuit .png", "images/Women/empire jumpsuit .png"],
+                    "Pants": ["images/Women/harem pants .png", "images/Women/bootcut pants.png", "images/Women/Palazzo pants .png", "images/Women/pegged pants.png", "images/Women sketches/Pants women /wideleg jeans .png"],
+                    "Necklines": ["images/Women sketches/Necklines /y neckline .png", "images/Women sketches/Necklines /v neckline.png", "images/Women sketches/Necklines /sweetheart neckline .png", "images/Women/scoop neckline .png", "images/Women/off shoulder neckline .png"],
+                    "Tops": ["images/Women/off shoulder top .png", "images/Women/peplum top .png", "images/Women sketches/Tops women /wrap top.png", "images/Women/empire top.png", "images/Women/hoodie - top.png"],
+                    "Sleeves": ["images/Women/cap sleeve .png", "images/Women/Bell sleeve.png", "images/Women/dolman sleeve.png", "images/Women/flutter sleeve .png", "images/Women/off shoulder sleeve .png"],
+                    "TRADITIONAL WEAR": ["images/Women/aline kurta.png", "images/Women/anarkali kurta.png", "images/Women sketches/Traditional wear women /straight cut kurta.png", "images/Women/empire waist kurta.png", "images/Women sketches/Traditional wear women /sari.png"]
+                }
+
+            },
+            "Male": {
+                "TRIANGLE": {
+                    "Collars": ["images/button down collar .png","images/Men sketches /Collars men /banded collar .png","images/Men sketches /Collars men /Mandarin collar .png","images/Men sketches /Collars men /spread collar .png","images/Men sketches /Collars men /pinned collar .png"],
+                    "Shirts": ["images/Men sketches /Shirts men /vertical stripe shirt.png","images/Men sketches /Shirts men /linen shirt .png","images/Men sketches /Shirts men /tshirt .png","images/Men sketches /Shirts men /polo tshirt .png","images/Men sketches /Shirts men /henley shirt.png"],
+                    "Pants": ["images/Men sketches /Pants /chinos.png","images/Men sketches /Pants /straight jeans .png","images/Men sketches /Pants /slim fit .png","images/Men sketches /Pants /cargo pants .png","images/Men sketches /Pants /shorts.png"]
+
+                }
                 
-                   
-
-               },
-                "PEAR": {
-                    "Skirt": ["images/women/a line skirt .png", "images/women/midi skirt .png","images/women/knee length skirt.png", "images/women/flip skirt .png", "images/women/wrap skirt .png"],
-                    "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/striped jumpsuit .png", "images/women/ruffled jumpsuit .png", "images/women/flared jumpsuit.png", "images/women/ruffled jumpsuit .png"],
-                    "Pants": ["images/women/flared jeans.png", "images/women/bootcut pants.png", "images/women/Palazzo pants .png", "images/women/trouser.png","images/women/wideleg jeans .png" ],
-                    "Necklines": ["images/women/halter neckline .png", "images/women/bardot neckline .png", "images/women/off shoulder neckline .png", "images/women/scoop neckline .png", "images/women/halter strap neckline .png"],
-                    "Tops": ["images/women/halter top.png", "images/women/bardot neck top .png", "images/women/belted top.png", "images/women/off shoulder top .png", "images/women/scoop neck tops.png"],
-                    "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/Bell sleeve.png", "images/women/flutter sleeve .png", "images/women/angel sleeves .png"],
-                    "TRADITIONAL WEAR": ["images/women/satin saree.png", "images/women/anarkali kurta.png", "images/women/flared kurta.png", "images/women/empire waist kurta.png", "images/women/straight cut kurta.png"]
-                },
-                "HOURGLASS": {
-                    "Skirt": ["images/women/pencil skirt .png", "images/women/mermaid skirt.png","images/women/tulip skirt.png", "images/women/flip skirt .png", "images/women/wrap skirt .png"],
-                    "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/wrap jumpsuit .png", "images/women/strapless jumpsuit .png", "images/women/wide leg jumpsuit .png", "images/women/utility jumpsuit .png"],
-                    "Pants": ["images/women/skinny jeans .png", "images/women/bootcut pants.png", "images/women/Palazzo pants .png", "images/women/pegged pants.png", "images/women/wideleg jeans .png"],
-                    "Necklines": ["images/women/halter neckline .png", "images/women/v neckline.png", "images/women/sweetheart neckline .png", "images/women/scoop neckline .png", "images/women/off shoulder neckline .png"],
-                    "Tops": ["images/women/fitted top.png", "images/women/peplum top .png", "images/women/sweetheart neckline tops .png", "images/women/wrap top.png", "images/women/hoodie .png"],
-                    "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/Bell sleeve.png", "images/women/flutter sleeve .png", "images/women/3_4 th sleeve .png"],
-                    "TRADITIONAL WEAR": ["images/women/lehanga choli .png", "images/women/anarkali kurta.png", "images/women/aline kurta.png", "images/women/salwar kameez .png", "images/women/patola saree.png"]
-                },
-                 "INVERTED TRIANGLE": {
-                    "Skirt": ["images/women/a line skirt .png", "images/women/pegged skirt .png","images/women/midi skirt .png", "images/women/above calf skirt.png", "images/women/wrap skirt .png"],
-                    "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/peplum jumpsuit .png", "images/women/off shoulder jumpsuit .png", "images/women/wide leg jumpsuit .png", "images/women/flared jumpsuit.png"],
-                    "Pants": ["images/women/flared jeans.png", "images/women/bootcut pants.png", "images/women/Palazzo pants .png", "images/women/straight jeans.png", "images/women/wideleg jeans .png"],
-                    "Necklines": ["images/women/halter neckline .png", "images/women/v neckline.png", "images/women/bardot neckline .png", "images/women/scoop neckline .png", "images/women/off shoulder neckline .png"],
-                    "Tops": ["images/women/asymmetric top .png", "images/women/peplum top .png", "images/women/empire top.png", "images/women/wrap top.png", "images/women/off shoulder top .png"],
-                    "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/Bell sleeve.png", "images/women/flutter sleeve .png", "images/women/3_4 th sleeve .png"],
-                    "TRADITIONAL WEAR": ["images/women/Palazzo kurta set.png", "images/women/anarkali kurta.png", "images/women/aline kurta.png", "images/women/straight cut kurta.png", "images/women/bandhani saree.png"]
-                },
-        "Male": {
-            "TRIANGLE": {
-                "Collars": ["images/button down collar .png","images/banded collar .png","images/Mandarin collar .png","images/spread collar .png","images/pinned collar .png"],
-                "Shirts": ["images/vertical stripe shirt.png","images/linen shirt .png","images/tshirt .png","images/polo tshirt .png","images/henley shirt.png"],
-                "Pants": ["images/chinos.png","images/straight jeans .png","images/slim fit .png","images/cargo pants .png","images/shorts.png"]
-
-                  
-                },
-                "OVAL": {
-                    "Collars": ["images/button down collar .png","images/tab collar .png","images/Mandarin collar .png","images/spread collar .png","images/one piece collar .png"],
-                    "Shirts": ["images/vertical stripe shirt.png","images/knit shirt .png","images/denim shirt.png","images/polo tshirt .png","images/flannel shirt .png"],
-                    "Pants": ["images/sweatpants .png","images/straight jeans .png","images/slim fit .png","images/cargo pants .png","images/pleated pants.png"]
-
-
-                },
-                "TRAPEZOID": {
-                     "Collars": ["images/button down collar .png","images/cuban collar shirt .png","images/hidden button down collar .png","images/spread collar .png","images/tab collar .png"],
-                    "Shirts": ["images/tuxedo shirt.png","images/linen shirt .png","images/tshirt .png","images/short sleeve tshirt .png","images/flap pocket shirt .png"],
-                    "Pants": ["images/linen trousers .png","images/straight jeans .png","images/slim fit .png","images/joggers.png","images/shorts.png"]
-
-                    
+                
                 }
             }
         
-    }
-}
+
     def load_rf_model(self):
         try:
             with open('random_forest_model.pkl', 'rb') as file:
