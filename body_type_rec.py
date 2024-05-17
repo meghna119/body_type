@@ -33,7 +33,7 @@ class BodyClassifierApp:
                 
                    
 
-            },
+               },
                 "PEAR": {
                     "Skirt": ["images/women/a line skirt .png", "images/women/midi skirt .png","images/women/knee length skirt.png", "images/women/flip skirt .png", "images/women/wrap skirt .png"],
                     "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/striped jumpsuit .png", "images/women/ruffled jumpsuit .png", "images/women/flared jumpsuit.png", "images/women/ruffled jumpsuit .png"],
@@ -61,11 +61,11 @@ class BodyClassifierApp:
                     "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/Bell sleeve.png", "images/women/flutter sleeve .png", "images/women/3_4 th sleeve .png"],
                     "TRADITIONAL WEAR": ["images/women/Palazzo kurta set.png", "images/women/anarkali kurta.png", "images/women/aline kurta.png", "images/women/straight cut kurta.png", "images/women/bandhani saree.png"]
                 },
-            "Male": {
-                "TRIANGLE": {
-                    "Collars": ["images/button down collar .png","images/banded collar .png","images/Mandarin collar .png","images/spread collar .png","images/pinned collar .png"],
-                    "Shirts": ["images/vertical stripe shirt.png","images/linen shirt .png","images/tshirt .png","images/polo tshirt .png","images/henley shirt.png"],
-                    "Pants": ["images/chinos.png","images/straight jeans .png","images/slim fit .png","images/cargo pants .png","images/shorts.png"]
+        "Male": {
+            "TRIANGLE": {
+                "Collars": ["images/button down collar .png","images/banded collar .png","images/Mandarin collar .png","images/spread collar .png","images/pinned collar .png"],
+                "Shirts": ["images/vertical stripe shirt.png","images/linen shirt .png","images/tshirt .png","images/polo tshirt .png","images/henley shirt.png"],
+                "Pants": ["images/chinos.png","images/straight jeans .png","images/slim fit .png","images/cargo pants .png","images/shorts.png"]
 
                   
                 },
