@@ -26,7 +26,7 @@ class BodyClassifierApp:
             },
             "Male": {
                 "TRIANGLE": {
-                    "Collars": ["images/Men sketches /Collars men /button down collar .png","images/Men sketches /Collars men /banded collar .png","images/Men sketches /Collars men /Mandarin collar .png","images/Men sketches /Collars men /spread collar .png","images/Men sketches /Collars men /pinned collar .png"],
+                    "Collars": ["/images/button%20down%20collar%20.png","images/Men sketches /Collars men /banded collar .png","images/Men sketches /Collars men /Mandarin collar .png","images/Men sketches /Collars men /spread collar .png","images/Men sketches /Collars men /pinned collar .png"],
                     "Shirts": ["images/Men sketches /Shirts men /vertical stripe shirt.png","images/Men sketches /Shirts men /linen shirt .png","images/Men sketches /Shirts men /tshirt .png","images/Men sketches /Shirts men /polo tshirt .png","images/Men sketches /Shirts men /henley shirt.png"],
                     "Pants": ["images/Men sketches /Pants /chinos.png","images/Men sketches /Pants /straight jeans .png","images/Men sketches /Pants /slim fit .png","images/Men sketches /Pants /cargo pants .png","images/Men sketches /Pants /shorts.png"]
 
