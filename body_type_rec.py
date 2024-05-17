@@ -45,7 +45,7 @@ class BodyClassifierApp:
                 
                 }
             }
-        
+        }  
 
     def load_rf_model(self):
         try:
