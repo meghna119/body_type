@@ -18,7 +18,7 @@ def get_image_files(folder):
     return image_files
 
 # Folder containing images
-image_folder = r"images"
+image_folder = r"images/women"
 
 # Output CSV file
 csv_file = 'Women.csv'
