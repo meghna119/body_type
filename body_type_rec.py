@@ -26,9 +26,9 @@ class BodyClassifierApp:
             },
             "Male": {
                 "TRIANGLE": {
-                    "Collars": ["images/button down collar .png","images/Men sketches /Collars men /banded collar .png","images/Men sketches /Collars men /Mandarin collar .png","images/Men sketches /Collars men /spread collar .png","images/Men sketches /Collars men /pinned collar .png"],
-                    "Shirts": ["images/Men sketches /Shirts men /vertical stripe shirt.png","images/Men sketches /Shirts men /linen shirt .png","images/Men sketches /Shirts men /tshirt .png","images/Men sketches /Shirts men /polo tshirt .png","images/Men sketches /Shirts men /henley shirt.png"],
-                    "Pants": ["images/Men sketches /Pants /chinos.png","images/Men sketches /Pants /straight jeans .png","images/Men sketches /Pants /slim fit .png","images/Men sketches /Pants /cargo pants .png","images/Men sketches /Pants /shorts.png"]
+                    "Collars": ["images/button down collar .png","images/banded collar .png","images/Mandarin collar .png","images/spread collar .png","images/pinned collar .png"],
+                    "Shirts": ["images/vertical stripe shirt.png","images/linen shirt .png","images/tshirt .png","images/polo tshirt .png","images/henley shirt.png"],
+                    "Pants": ["images/chinos.png","images/straight jeans .png","images/slim fit .png","images/cargo pants .png","images/shorts.png"]
 
                 }
                 
