@@ -18,7 +18,7 @@ class BodyClassifierApp:
                     "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/wide leg jumpsuit .png", "images/women/utility jumpsuit .png", "images/women/wrap jumpsuit .png", "images/women/empire jumpsuit .png"],
                     "Pants": ["images/women/harem pants .png", "images/women/bootcut pants.png", "images/women/Palazzo pants .png", "images/women/pegged pants.png", "images/women/wideleg jeans .png"],
                     "Necklines": ["images/women/y neckline .png", "images/women/v neckline.png", "images/women/sweetheart neckline .png", "images/women/scoop neckline .png", "images/women/off shoulder neckline .png"],
-                    "Tops": ["images/women/off shoulder top .png", "images/women/peplum top .png", "images/women/wrap top.png", "images/women/empire top.png", "images/women/hoodie - top.png"],
+                    "Tops": ["images/women/off shoulder top .png", "images/women/peplum top .png", "images/women/wrap top.png", "images/women/empire top.png", "images/women/hoodie .png"],
                     "Sleeves": ["images/women/cap sleeve .png", "images/women/Bell sleeve.png", "images/women/dolman sleeve.png", "images/women/flutter sleeve .png", "images/women/off shoulder sleeve .png"],
                     "TRADITIONAL WEAR": ["images/women/aline kurta.png", "images/women/anarkali kurta.png", "images/women/straight cut kurta.png", "images/women/empire waist kurta.png", "images/women/sari.png"]
                 },
