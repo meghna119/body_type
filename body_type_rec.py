@@ -22,7 +22,7 @@ class BodyClassifierApp:
                     "Sleeves": ["images/women/cap sleeve .png", "images/women/Bell sleeve.png", "images/women/dolman sleeve.png", "images/women/flutter sleeve .png", "images/women/off shoulder sleeve .png"],
                     "TRADITIONAL WEAR": ["images/women/aline kurta.png", "images/women/anarkali kurta.png", "images/women/straight cut kurta.png", "images/women/empire waist kurta.png", "images/women/sari.png"]
 
-                }
+                },
                 "RECTANGLE": {
                     "Skirt": ["images/women/a line skirt .png", "images/women/pencil skirt .png","images/women/tulip skirt.png", "images/women/flip skirt .png", "images/women/wrap skirt .png"],
                     "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/peplum jumpsuit .png", "images/women/ruffled jumpsuit .png", "images/women/basic jumpsuit .png", "images/women/empire jumpsuit .png"],
