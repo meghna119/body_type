@@ -61,29 +61,28 @@ class BodyClassifierApp:
                     "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/Bell sleeve.png", "images/women/flutter sleeve .png", "images/women/3_4 th sleeve .png"],
                     "TRADITIONAL WEAR": ["images/women/Palazzo kurta set.png", "images/women/anarkali kurta.png", "images/women/aline kurta.png", "images/women/straight cut kurta.png", "images/women/bandhani saree.png"]
                 },
-                
-               
             "Male": {
                 "TRIANGLE": {
                     "Collars": ["images/button down collar .png","images/banded collar .png","images/Mandarin collar .png","images/spread collar .png","images/pinned collar .png"],
                     "Shirts": ["images/vertical stripe shirt.png","images/linen shirt .png","images/tshirt .png","images/polo tshirt .png","images/henley shirt.png"],
                     "Pants": ["images/chinos.png","images/straight jeans .png","images/slim fit .png","images/cargo pants .png","images/shorts.png"]
 
+                  
                 },
-                
                 "OVAL": {
                     "Collars": ["images/button down collar .png","images/tab collar .png","images/Mandarin collar .png","images/spread collar .png","images/one piece collar .png"],
                     "Shirts": ["images/vertical stripe shirt.png","images/knit shirt .png","images/denim shirt.png","images/polo tshirt .png","images/flannel shirt .png"],
                     "Pants": ["images/sweatpants .png","images/straight jeans .png","images/slim fit .png","images/cargo pants .png","images/pleated pants.png"]
 
-                
-                
+
                 },
                 "TRAPEZOID": {
-                    "Collars": ["images/button down collar .png","images/cuban collar shirt .png","images/hidden button down collar .png","images/spread collar .png","images/tab collar .png"],
+                     "Collars": ["images/button down collar .png","images/cuban collar shirt .png","images/hidden button down collar .png","images/spread collar .png","images/tab collar .png"],
                     "Shirts": ["images/tuxedo shirt.png","images/linen shirt .png","images/tshirt .png","images/short sleeve tshirt .png","images/flap pocket shirt .png"],
                     "Pants": ["images/linen trousers .png","images/straight jeans .png","images/slim fit .png","images/joggers.png","images/shorts.png"]
 
+                    
+                }
             }
         } 
     }
