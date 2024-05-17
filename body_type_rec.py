@@ -69,21 +69,7 @@ class BodyClassifierApp:
                     "Shirts": ["images/vertical stripe shirt.png","images/linen shirt .png","images/tshirt .png","images/polo tshirt .png","images/henley shirt.png"],
                     "Pants": ["images/chinos.png","images/straight jeans .png","images/slim fit .png","images/cargo pants .png","images/shorts.png"]
 
-                },
-                "OVAL": {
-                    "Collars": ["images/button down collar .png","images/tab collar .png","images/Mandarin collar .png","images/spread collar .png","images/one piece collar .png"],
-                    "Shirts": ["images/vertical stripe shirt.png","images/knit shirt .png","images/denim shirt.png","images/polo tshirt .png","images/flannel shirt .png"],
-                    "Pants": ["images/sweatpants .png","images/straight jeans .png","images/slim fit .png","images/cargo pants .png","images/pleated pants.png"]
-
-                
-                
-                },
-                "TRAPEZOID": {
-                    "Collars": ["images/button down collar .png","images/cuban collar shirt .png","images/hidden button down collar .png","images/spread collar .png","images/tab collar .png"],
-                    "Shirts": ["images/tuxedo shirt.png","images/linen shirt .png","images/tshirt .png","images/short sleeve tshirt .png","images/flap pocket shirt .png"],
-                    "Pants": ["images/linen trousers .png","images/straight jeans .png","images/slim fit .png","images/joggers.png","images/shorts.png"]
-
-            }
+                }
         } 
     }
 }
