@@ -55,7 +55,7 @@ def get_image_files(folder):
     return image_files
 
 # Folder containing images
-image_folder = "images/Men"
+image_folder = "images"
 
 # Output CSV file
 csv_file = 'Men.csv'
@@ -101,7 +101,7 @@ def display_image(image_path):
         print(f"Error: {e}")
 
 # Folder containing images
-image_folder = r"/Applications/XAMPP/xamppfiles/htdocs/URasethetic/images/Men"  # Use raw string to handle backslashes
+image_folder = r"images"  # Use raw string to handle backslashes
 
 # Output CSV file
 csv_file = 'Men.csv'
