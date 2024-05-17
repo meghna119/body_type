@@ -29,7 +29,17 @@ class BodyClassifierApp:
                     "Necklines": ["images/women/halter neckline .png", "images/women/v neckline.png", "images/women/sweetheart neckline .png", "images/women/scoop neckline .png", "images/women/halter strap neckline .png"],
                     "Tops": ["images/women/halter top.png", "images/women/peplum top .png", "images/women/belted top.png", "images/women/empire top.png", "images/women/hoodie .png"],
                     "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/dolman sleeve.png", "images/women/flutter sleeve .png", "images/women/3_4 th sleeve .png"],
-                    "TRADITIONAL WEAR": ["images/women/bandhani saree.png", "images/women/anarkali kurta.png", "images/women/flared kurta.png", "images/women/empire waist kurta.png", "images/women/pleated kurta .png"]}
+                    "TRADITIONAL WEAR": ["images/women/bandhani saree.png", "images/women/anarkali kurta.png", "images/women/flared kurta.png", "images/women/empire waist kurta.png", "images/women/pleated kurta .png"]},
+                 "PEAR": {
+                    "Skirt": ["images/women/a line skirt .png", "images/women/midi skirt .png","images/women/knee length skirt.png", "images/women/flip skirt .png", "images/women/wrap skirt .png"],
+                    "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/striped jumpsuit .png", "images/women/ruffled jumpsuit .png", "images/women/flared jumpsuit.png", "images/women/ruffled jumpsuit .png"],
+                    "Pants": ["images/women/flared jeans.png", "images/women/bootcut pants.png", "images/women/Palazzo pants .png", "images/women/trouser.png","images/women/wideleg jeans .png" ],
+                    "Necklines": ["images/women/halter neckline .png", "images/women/bardot neckline .png", "images/women/off shoulder neckline .png", "images/women/scoop neckline .png", "images/women/halter strap neckline .png"],
+                    "Tops": ["images/women/halter top.png", "images/women/bardot neck top .png", "images/women/belted top.png", "images/women/off shoulder top .png", "images/women/scoop neck tops.png"],
+                    "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/Bell sleeve.png", "images/women/flutter sleeve .png", "images/women/angel sleeves .png"],
+                    "TRADITIONAL WEAR": ["images/women/satin saree.png", "images/women/anarkali kurta.png", "images/women/flared kurta.png", "images/women/empire waist kurta.png", "images/women/straight cut kurta.png"]}
+
+                
                 
 
                
