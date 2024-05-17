@@ -36,7 +36,7 @@ class BodyClassifierApp:
             },
                 "PEAR": {
                     "Skirt": ["images/women/a line skirt .png", "images/women/midi skirt .png","images/women/knee length skirt.png", "images/women/flip skirt .png", "images/women/wrap skirt .png"],
-                    "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/striped jumpsuit .png", "images/women/ruffled jumpsuit .png", "images/women/flared jumpsuit.png", "images/women/ruffled jumpsuit .png],
+                    "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/striped jumpsuit .png", "images/women/ruffled jumpsuit .png", "images/women/flared jumpsuit.png", "images/women/ruffled jumpsuit .png"],
                     "Pants": ["images/women/flared jeans.png", "images/women/bootcut pants.png", "images/women/Palazzo pants .png", "images/women/trouser.png","images/women/wideleg jeans .png" ],
                     "Necklines": ["images/women/halter neckline .png", "images/women/bardot neckline .png", "images/women/off shoulder neckline .png", "images/women/scoop neckline .png", "images/women/halter strap neckline .png"],
                     "Tops": ["images/women/halter top.png", "images/women/bardot neck top .png", "images/women/belted top.png", "images/women/off shoulder top .png", "images/women/scoop neck tops.png"],
