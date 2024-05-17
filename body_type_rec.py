@@ -22,7 +22,7 @@ class BodyClassifierApp:
                     "Sleeves": ["images/women/cap sleeve .png", "images/women/Bell sleeve.png", "images/women/dolman sleeve.png", "images/women/flutter sleeve .png", "images/women/off shoulder sleeve .png"],
                     "TRADITIONAL WEAR": ["images/women/aline kurta.png", "images/women/anarkali kurta.png", "images/women/straight cut kurta.png", "images/women/empire waist kurta.png", "images/women/sari.png"]
 
-               
+                }
 
             },
             "Male": {
