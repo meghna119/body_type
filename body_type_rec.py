@@ -14,7 +14,7 @@ class BodyClassifierApp:
         self.recommendation_images = {
             "Female": {
                 "APPLE": {
-                    "Skirt": ["images/women/a line skirt .png", "images/Women sketches/Skirts/wrap skirt .png","images/Women/handkerchief skirt .png", "images/Women/flip skirt .png", "images/Women/draped skirt .png"],
+                    "Skirt": ["images/women/a line skirt .png", "images/women/wrap skirt .png","images/women/handkerchief skirt .png", "images/women/flip skirt .png", "images/women/draped skirt .png"],
                     "Jumpsuits": ["images/Women/belted jumpsuit .png", "images/Women sketches/Jumpsuits /wide leg jumpsuit .png", "images/Women sketches/Jumpsuits /utility jumpsuit .png", "images/Women sketches/Jumpsuits /wrap jumpsuit .png", "images/Women/empire jumpsuit .png"],
                     "Pants": ["images/Women/harem pants .png", "images/Women/bootcut pants.png", "images/Women/Palazzo pants .png", "images/Women/pegged pants.png", "images/Women sketches/Pants women /wideleg jeans .png"],
                     "Necklines": ["images/Women sketches/Necklines /y neckline .png", "images/Women sketches/Necklines /v neckline.png", "images/Women sketches/Necklines /sweetheart neckline .png", "images/Women/scoop neckline .png", "images/Women/off shoulder neckline .png"],
