@@ -37,7 +37,25 @@ class BodyClassifierApp:
                     "Necklines": ["images/women/halter neckline .png", "images/women/bardot neckline .png", "images/women/off shoulder neckline .png", "images/women/scoop neckline .png", "images/women/halter strap neckline .png"],
                     "Tops": ["images/women/halter top.png", "images/women/bardot neck top .png", "images/women/belted top.png", "images/women/off shoulder top .png", "images/women/scoop neck tops.png"],
                     "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/Bell sleeve.png", "images/women/flutter sleeve .png", "images/women/angel sleeves .png"],
-                    "TRADITIONAL WEAR": ["images/women/satin saree.png", "images/women/anarkali kurta.png", "images/women/flared kurta.png", "images/women/empire waist kurta.png", "images/women/straight cut kurta.png"]}
+                    "TRADITIONAL WEAR": ["images/women/satin saree.png", "images/women/anarkali kurta.png", "images/women/flared kurta.png", "images/women/empire waist kurta.png", "images/women/straight cut kurta.png"]},
+                "HOURGLASS": {
+                    "Skirt": ["images/women/pencil skirt .png", "images/women/mermaid skirt.png","images/women/tulip skirt.png", "images/women/flip skirt .png", "images/women/wrap skirt .png"],
+                    "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/wrap jumpsuit .png", "images/women/strapless jumpsuit .png", "images/women/wide leg jumpsuit .png", "images/women/utility jumpsuit .png"],
+                    "Pants": ["images/women/skinny jeans .png", "images/women/bootcut pants.png", "images/women/Palazzo pants .png", "images/women/pegged pants.png", "images/women/wideleg jeans .png"],
+                    "Necklines": ["images/women/halter neckline .png", "images/women/v neckline.png", "images/women/sweetheart neckline .png", "images/women/scoop neckline .png", "images/women/off shoulder neckline .png"],
+                    "Tops": ["images/women/fitted top.png", "images/women/peplum top .png", "images/women/sweetheart neckline tops .png", "images/women/wrap top.png", "images/women/hoodie .png"],
+                    "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/Bell sleeve.png", "images/women/flutter sleeve .png", "images/women/3_4 th sleeve .png"],
+                    "TRADITIONAL WEAR": ["images/women/lehanga choli .png", "images/women/anarkali kurta.png", "images/women/aline kurta.png", "images/women/salwar kameez .png", "images/women/patola saree.png"]},
+                 "INVERTED TRIANGLE": {
+                    "Skirt": ["images/women/a line skirt .png", "images/women/pegged skirt .png","images/women/midi skirt .png", "images/women/above calf skirt.png", "images/women/wrap skirt .png"],
+                    "Jumpsuits": ["images/women/belted jumpsuit .png", "images/women/peplum jumpsuit .png", "images/women/off shoulder jumpsuit .png", "images/women/wide leg jumpsuit .png", "images/women/flared jumpsuit.png"],
+                    "Pants": ["images/women/flared jeans.png", "images/women/bootcut pants.png", "images/women/Palazzo pants .png", "images/women/straight jeans.png", "images/women/wideleg jeans .png"],
+                    "Necklines": ["images/women/halter neckline .png", "images/women/v neckline.png", "images/women/bardot neckline .png", "images/women/scoop neckline .png", "images/women/off shoulder neckline .png"],
+                    "Tops": ["images/women/asymmetric top .png", "images/women/peplum top .png", "images/women/empire top.png", "images/women/wrap top.png", "images/women/off shoulder top .png"],
+                    "Sleeves": ["images/women/cap sleeve .png", "images/women/puff sleeves .png", "images/women/Bell sleeve.png", "images/women/flutter sleeve .png", "images/women/3_4 th sleeve .png"],
+                    "TRADITIONAL WEAR": ["images/women/Palazzo kurta set.png", "images/women/anarkali kurta.png", "images/women/aline kurta.png", "images/women/straight cut kurta.png", "images/women/bandhani saree.png"]}
+
+
 
                 
                 
