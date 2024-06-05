@@ -10,7 +10,7 @@ MALE_GENDER = 2
 class BodyClassifierApp:
     def __init__(self):
         # Load the trained model
-        self.rf_model = self.load_rf_model()
+        self.rf_model = self.load_random_forest_model()
         self.recommendation_images = {
             "Female": {
                 "APPLE": {
@@ -265,7 +265,7 @@ class BodyClassifierApp:
 
     def load_rf_model(self):
         # Load the trained model from a pickle file
-        with open('rf_model.pkl', 'rb') as file:
+        with open('random_forest_model.pkl', 'rb') as file:
             model = pickle.load(file)
         return model
 
