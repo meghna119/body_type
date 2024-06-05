@@ -270,48 +270,34 @@ class BodyClassifierApp:
         return model
 
     def classify(self, gender, age, measurements):
-        try:
-            data = pd.DataFrame(columns=['Gender', 'Age', 'Shoulder', 'Waist', 'Hips', 'Bust', 'Chest'])
-            data.loc[0] = [FEMALE_GENDER if gender == "Female" else MALE_GENDER, age] + measurements
-            body_type = self.rf_model.predict(data)[0]
-            return body_type
-        except Exception as e:
-            st.error(f"An error occurred during classification: {e}")
-            return None
+    try:
+        data = pd.DataFrame(columns=['Gender', 'Age', 'Shoulder', 'Waist', 'Hips', 'Bust', 'Chest'])
+        gender_value = FEMALE_GENDER if gender == "Female" else MALE_GENDER
+        shoulder, waist, hips, bust, chest = measurements
+        data.loc[0] = [gender_value, age, shoulder, waist, hips, bust, chest]
+        body_type = self.rf_model.predict(data)[0]
+        return body_type
+    except Exception as e:
+        st.error(f"An error occurred during classification: {e}")
+        return None
 
-    def display_recommendations(self, gender, body_type):
-        st.write(f"Recommendations for {body_type} body type:")
-        recommendations = self.recommendation_images[gender][body_type]
+def run(self):
+    st.title("Body Type Classifier and Outfit Recommendations")
 
-        feedback = {}
-        for category, images in recommendations.items():
-            st.write(f"Category: {category}")
-            for img_name, img_path in images:
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.image(img_path, use_column_width=True, caption=img_name)
-                with col2:
-                    feedback[img_path] = st.button("👍", key=f"{img_path}_like") or st.button("👎", key=f"{img_path}_dislike")
+    gender = st.radio("Select your gender:", ("Female", "Male"))
+    age = st.number_input("Enter your age:", min_value=0)
+    shoulder = st.number_input("Enter your shoulder measurement (in inches):", min_value=0)
+    waist = st.number_input("Enter your waist measurement (in inches):", min_value=0)
+    hips = st.number_input("Enter your hips measurement (in inches):", min_value=0)
+    bust = st.number_input("Enter your bust measurement (in inches):", min_value=0)
+    chest = st.number_input("Enter your chest measurement (in inches):", min_value=0)
 
-        return feedback
-
-    def run(self):
-        st.title("Recommendation of Cloth pattern using Body type")
-
-        gender = st.radio("Select your gender:", ("Female", "Male"))
-        age = st.number_input("Enter your age:", min_value=0)
-        shoulder = st.number_input("Enter your shoulder measurement (in inches):", min_value=0)
-        waist = st.number_input("Enter your waist measurement (in inches):", min_value=0)
-        hips = st.number_input("Enter your hips measurement (in inches):", min_value=0)
-        bust_chest_label = "bust" if gender == "Female" else "chest"
-        bust_chest = st.number_input(f"Enter your {bust_chest_label} measurement (in inches):", min_value=0)
-
-        if st.button("Get Recommendations"):
-            measurements = [shoulder, waist, hips, bust_chest]
-            body_type = self.classify(gender, age, measurements)
-            if body_type:
-                feedback = self.display_recommendations(gender, body_type)
-                st.write("Thank you for your feedback!")
+    if st.button("Get Recommendations"):
+        measurements = [shoulder, waist, hips, bust, chest]
+        body_type = self.classify(gender, age, measurements)
+        if body_type:
+            feedback = self.display_recommendations(gender, body_type)
+            st.write("Thank you for your feedback!")
 
 if __name__ == "__main__":
     app = BodyClassifierApp()
