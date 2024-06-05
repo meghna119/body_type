@@ -270,34 +270,34 @@ class BodyClassifierApp:
         return model
 
     def classify(self, gender, age, measurements):
-    try:
-        data = pd.DataFrame(columns=['Gender', 'Age', 'Shoulder', 'Waist', 'Hips', 'Bust', 'Chest'])
-        gender_value = FEMALE_GENDER if gender == "Female" else MALE_GENDER
-        shoulder, waist, hips, bust, chest = measurements
-        data.loc[0] = [gender_value, age, shoulder, waist, hips, bust, chest]
-        body_type = self.rf_model.predict(data)[0]
-        return body_type
-    except Exception as e:
-        st.error(f"An error occurred during classification: {e}")
-        return None
+        try:
+            data = pd.DataFrame(columns=['Gender', 'Age', 'Shoulder', 'Waist', 'Hips', 'Bust', 'Chest'])
+            gender_value = FEMALE_GENDER if gender == "Female" else MALE_GENDER
+            shoulder, waist, hips, bust, chest = measurements
+            data.loc[0] = [gender_value, age, shoulder, waist, hips, bust, chest]
+            body_type = self.rf_model.predict(data)[0]
+            return body_type
+        except Exception as e:
+            st.error(f"An error occurred during classification: {e}")
+            return None
 
-def run(self):
-    st.title("Body Type Classifier and Outfit Recommendations")
+    def run(self):
+        st.title("Body Type Classifier and Outfit Recommendations")
 
-    gender = st.radio("Select your gender:", ("Female", "Male"))
-    age = st.number_input("Enter your age:", min_value=0)
-    shoulder = st.number_input("Enter your shoulder measurement (in inches):", min_value=0)
-    waist = st.number_input("Enter your waist measurement (in inches):", min_value=0)
-    hips = st.number_input("Enter your hips measurement (in inches):", min_value=0)
-    bust = st.number_input("Enter your bust measurement (in inches):", min_value=0)
-    chest = st.number_input("Enter your chest measurement (in inches):", min_value=0)
+        gender = st.radio("Select your gender:", ("Female", "Male"))
+        age = st.number_input("Enter your age:", min_value=0)
+        shoulder = st.number_input("Enter your shoulder measurement (in inches):", min_value=0)
+        waist = st.number_input("Enter your waist measurement (in inches):", min_value=0)
+        hips = st.number_input("Enter your hips measurement (in inches):", min_value=0)
+        bust = st.number_input("Enter your bust measurement (in inches):", min_value=0)
+        chest = st.number_input("Enter your chest measurement (in inches):", min_value=0)
 
-    if st.button("Get Recommendations"):
-        measurements = [shoulder, waist, hips, bust, chest]
-        body_type = self.classify(gender, age, measurements)
-        if body_type:
-            feedback = self.display_recommendations(gender, body_type)
-            st.write("Thank you for your feedback!")
+        if st.button("Get Recommendations"):
+            measurements = [shoulder, waist, hips, bust, chest]
+            body_type = self.classify(gender, age, measurements)
+            if body_type:
+                feedback = self.display_recommendations(gender, body_type)
+                st.write("Thank you for your feedback!")
 
 if __name__ == "__main__":
     app = BodyClassifierApp()
