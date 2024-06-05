@@ -48,7 +48,7 @@ class BodyClassifierApp:
                                          ("Anarkali Kurta", "images/women/anarkali kurta.png"), 
                                          ("Straight Cut Kurta", "images/women/straight cut kurta.png"), 
                                          ("Empire Waist Kurta", "images/women/empire waist kurta.png"), 
-                                         ("Sari", "images/women/sari.png")]
+                                         ("Georgette Saree", "images/women/Georgette saree .png")]
                 },
                 "RECTANGLE": {
                     "Skirt": [("A-line Skirt", "images/women/a line skirt .png"), 
@@ -81,7 +81,7 @@ class BodyClassifierApp:
                                 ("Dolman Sleeve", "images/women/dolman sleeve.png"), 
                                 ("Flutter Sleeve", "images/women/flutter sleeve .png"), 
                                 ("3/4 Sleeve", "images/women/3_4 th sleeve .png")],
-                    "TRADITIONAL WEAR": [("Bandhani Saree", "images/women/bandhani saree.png"), 
+                    "TRADITIONAL WEAR": [("Chiffon Saree", "images/women/chiffon saree .png"), 
                                          ("Anarkali Kurta", "images/women/anarkali kurta.png"), 
                                          ("Flared Kurta", "images/women/flared kurta.png"), 
                                          ("Empire Waist Kurta", "images/women/empire waist kurta.png"), 
@@ -118,7 +118,7 @@ class BodyClassifierApp:
                                 ("Bell Sleeve", "images/women/Bell sleeve.png"), 
                                 ("Flutter Sleeve", "images/women/flutter sleeve .png"), 
                                 ("Angel Sleeves", "images/women/angel sleeves .png")],
-                    "TRADITIONAL WEAR": [("Satin Saree", "images/women/satin saree.png"), 
+                    "TRADITIONAL WEAR": [("Chanderi Saree", "images/women/chanderi saree.png"), 
                                          ("Anarkali Kurta", "images/women/anarkali kurta.png"), 
                                          ("Flared Kurta", "images/women/flared kurta.png"), 
                                          ("Empire Waist Kurta", "images/women/empire waist kurta.png"), 
@@ -159,7 +159,7 @@ class BodyClassifierApp:
                                          ("Anarkali Kurta", "images/women/anarkali kurta.png"), 
                                          ("A-line Kurta", "images/women/aline kurta.png"), 
                                          ("Salwar Kameez", "images/women/salwar kameez .png"), 
-                                         ("Patola Saree", "images/women/patola saree.png")]
+                                         ("Kanjivaram Saree", "images/women/kanjivaram saree.png")]
                 },
                 "INVERTED TRIANGLE": {
                     "Skirt": [("A-line Skirt", "images/women/a line skirt .png"), 
@@ -286,9 +286,12 @@ class BodyClassifierApp:
         feedback = {}
         for category, images in recommendations.items():
             st.write(f"Category: {category}")
-            for img_path in images:
-                st.image(img_path, use_column_width=True)
-                feedback[img_path] = st.radio(f"Do you like this {category}?", ("Hit", "Miss"))
+            for img_name, img_path in images:
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.image(img_path, use_column_width=True, caption=img_name)
+                with col2:
+                    feedback[img_path] = st.button("👍", key=f"{img_path}_like") or st.button("👎", key=f"{img_path}_dislike")
 
         return feedback
 
@@ -313,4 +316,3 @@ class BodyClassifierApp:
 if __name__ == "__main__":
     app = BodyClassifierApp()
     app.run()
-
