@@ -281,6 +281,23 @@ class BodyClassifierApp:
             st.error(f"An error occurred during classification: {e}")
             return None
 
+     def display_recommendations(self, gender, body_type):
+        st.write(f"Recommendations for {body_type} body type:")
+        recommendations = self.recommendation_images[gender][body_type]
+
+        feedback = {}
+        for category, images in recommendations.items():
+            st.write(f"Category: {category}")
+            for img_name, img_path in images:
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.image(img_path, use_column_width=True, caption=img_name)
+                with col2:
+                    feedback[img_path] = st.button("👍", key=f"{img_path}_like") or st.button("👎", key=f"{img_path}_dislike")
+
+        return feedback
+
+
     def run(self):
         st.title("Body Type Classifier and Outfit Recommendations")
 
