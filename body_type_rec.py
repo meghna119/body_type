@@ -7,7 +7,7 @@ from PIL import Image
 FEMALE_GENDER = 1
 MALE_GENDER = 2
 
-class BodyClassifierApp:
+
     def __init__(self):
         # Load the trained model
         self.rf_model = self.load_rf_model()
