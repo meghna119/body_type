@@ -296,7 +296,7 @@ class BodyClassifierApp:
         return feedback
 
     def run(self):
-        st.title("Body Type Classifier and Outfit Recommendations")
+        st.title("Recommendation of Cloth pattern using Body type")
 
         gender = st.radio("Select your gender:", ("Female", "Male"))
         age = st.number_input("Enter your age:", min_value=0)
