@@ -281,7 +281,7 @@ class BodyClassifierApp:
             st.error(f"An error occurred during classification: {e}")
             return None
 
-     def display_recommendations(self, gender, body_type):
+    def display_recommendations(self, gender, body_type):
         st.write(f"Recommendations for {body_type} body type:")
         recommendations = self.recommendation_images[gender][body_type]
 
