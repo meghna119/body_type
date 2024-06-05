@@ -10,7 +10,7 @@ MALE_GENDER = 2
 class BodyClassifierApp:
     def __init__(self):
         # Load the trained model
-        self.rf_model = self.load_random_forest_model.pkl()
+        self.rf_model = self.load_rf_model()
         self.recommendation_images = {
             "Female": {
                 "APPLE": {
